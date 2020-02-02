@@ -1,0 +1,117 @@
+.pop-of{
+    display: none;
+}
+
+
+.pop-on{
+    width:405px;
+    height:250px;
+    position: fixed;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;
+    margin: auto;
+    border-radius: 5px;
+    color: white;
+    opacity: 0.85;
+    background-color: black;
+    z-index: 1;
+    animation: showPop 0.2s ease-in 1;
+    padding: 3%;
+
+
+}
+
+@keyframes showPop {
+    from{
+        opacity: 0;
+        transform: scale(0.5)
+    }
+    to{
+        opacity: 0.85;
+        transform: scale(1)
+
+
+    }
+}
+
+
+
+#input{
+    background:none;
+    border: none;
+    border-bottom: 0.5px solid rgb(190, 188, 188);
+    margin-right:2%;
+}
+
+input::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.pop-inputs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:3%;
+
+}
+
+
+#name{
+    margin:20%;
+}
+
+.pop-item{
+    
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    margin-left:-15%;
+    margin-top:18%;
+    margin-bottom:42%;
+    font-size: 1em;
+}
+
+.pop-input{
+    background:none;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-bottom: 1px solid white;
+    margin:7%;
+    justify-self: center;
+    align-self: center;
+    color:white;
+    text-align: center;
+    font-size: 1em;
+    
+
+}
+
+
+.top{
+    margin-top:8vh;
+}
+
+#update{
+    width: 40%;
+    height:10% ;
+    background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: absolute;
+    right:30%; 
+    top:80%;
+    color:black;
+    display: grid;
+    z-index: 3;
+
+}
+#update-item{
+    display: grid;
+    justify-self: center;
+    align-self: center;
+}
+
+.fa-times{
+    margin-top:-47vh;
+    margin-left:-55px;
+}

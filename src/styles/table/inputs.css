@@ -1,0 +1,42 @@
+.inputs{
+    margin-top:1%;
+    padding:2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 7.5fr 1fr;
+}
+
+#input{
+    background:none;
+    border: none;
+    border-bottom: 0.5px solid rgb(190, 188, 188);
+    margin-right:2%;
+    font-size: 1em;
+}
+
+input::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+select{
+    font-family: 'Montserrat', sans-serif;
+    background:none;
+    border: none;
+    border-bottom: 0.5px solid rgb(190, 188, 188);
+    width:10vw;
+    font-size: 1em;
+
+}
+
+#right{
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#left{
+    cursor: pointer;
+    font-size: 15px;
+}
+/* .fa-chevron-right{
+    font-size: 2px;
+} */

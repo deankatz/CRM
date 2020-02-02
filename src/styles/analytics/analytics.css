@@ -1,0 +1,85 @@
+.badges{
+    margin-left:3%;
+      margin-right:3%;
+    margin-top:2%;
+    margin-bottom:5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr)
+  }
+  
+  .Badge{
+      display: grid;
+      
+      align-self: center;
+        justify-self: center;
+        text-align: center;
+        grid-gap:8%;
+  }
+  
+  .badge-icon{
+    display: grid;
+    color:white;
+    display: grid;
+    justify-self: center;
+    text-align: center;
+    background-color:red;
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    margin: 2%;
+    box-shadow: 1px 2px 2px 0px rgba(112,108,112,1);
+
+  
+  }
+  
+  .fas{
+    align-self: center;
+    justify-self: center;
+    font-size: 2em;
+  }
+  
+  .far{
+    align-self: center;
+    justify-self: center;
+    font-size: 2em;
+  }
+  
+  .date{
+    background-color:aqua;
+  }
+  
+  .out{
+    background-color:greenyellow;
+  }
+  .email{
+    background-color:palevioletred;
+  }
+  
+  /* //Charts */
+
+  .top-charts{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin-left:3%;
+      margin-right:3%;
+  }
+
+  .bottom-charts{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left:3%;
+    margin-right:3%;
+  }
+
+.chart-header{
+    font-size: 1.3em;
+    margin-left:5%;
+    margin-bottom:1%;
+  }
+
+  .employee-input{
+    width: 10%;
+    border:none;
+  }
+
+  
